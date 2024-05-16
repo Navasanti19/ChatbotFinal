@@ -22,7 +22,7 @@ client = OpenAI(api_key=API_KEY)
 
 
 global device
-device="cuda"
+device="cpu"
 
 global model
 model=torch.load('bobred.pth')
