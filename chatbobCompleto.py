@@ -11,14 +11,10 @@ from openai import OpenAI
 
 
 global ASSISTANT_ID
-
-with open('constants.txt', 'rb') as f:
-    constants = f.read().decode('utf-8').split('\n')
-    ASSISTANT_ID = constants[0].strip()
-    API_KEY = constants[1]
+ASSISTANT_ID = "asst_Sa4rNiUTomxX1jUtUfk0YrGx"
 
 global client
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key="sk-proj-7Ow4RPjzdx9yPIVLhJDBT3BlbkFJVAzZhC81JGO5Bfu8AmnC")
 
 
 global device
