@@ -111,17 +111,17 @@ def handle(msg):
             bot.sendMessage(msg['from']['id'], '!Ash! Ya veo el problema con tu llave, puede que sea algo interno')
             bot.sendMessage(msg['from']['id'], 'No te preocupes, con BOB puedes encontrar un especialista en plomería en tu área')
             bot.sendMessage(msg['from']['id'], 'Por favor, ve al siguiente enlace para encontrar un especialista en plomería : ')
-            bot.sendMessage(msg['from']['id'], 'https://www.plomeros.com')
+            bot.sendMessage(msg['from']['id'], 'https://bob-owz2da4d4a-uc.a.run.app/trabajador/list/plomero')
         elif classes[predicted[0]] == 'OUTLET':
             bot.sendMessage(msg['from']['id'], '!Ash! Ya veo el problema con tu enchufe, cuidado con la electricidad')
             bot.sendMessage(msg['from']['id'], 'No te preocupes, con BOB puedes encontrar un especialista en electricidad en tu área')
             bot.sendMessage(msg['from']['id'], 'Por favor, ve al siguiente enlace para encontrar un especialista en electricidad : ')
-            bot.sendMessage(msg['from']['id'], 'https://www.electricistas.com')
+            bot.sendMessage(msg['from']['id'], 'https://bob-owz2da4d4a-uc.a.run.app/trabajador/list/electricos')
         elif classes[predicted[0]] == 'WALL':
             bot.sendMessage(msg['from']['id'], '!Ash! Ya veo el problema con tu pared, puede que sea algo estructural')
             bot.sendMessage(msg['from']['id'], 'No te preocupes, con BOB puedes encontrar un especialista en construcción en tu área')
             bot.sendMessage(msg['from']['id'], 'Por favor, ve al siguiente enlace para encontrar un especialista en construcción : ')
-            bot.sendMessage(msg['from']['id'], 'https://www.constructores.com')
+            bot.sendMessage(msg['from']['id'], 'https://bob-owz2da4d4a-uc.a.run.app/trabajador/list/maestros')
         
         bot.sendMessage(msg['from']['id'], 'Cuéntame, ¿En que más puedo ayudarte?')
 
