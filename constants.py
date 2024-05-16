@@ -1,2 +1,0 @@
-ASSISTANT_ID = "asst_Sa4rNiUTomxX1jUtUfk0YrGx"
-API_KEY="sk-proj-7Ow4RPjzdx9yPIVLhJDBT3BlbkFJVAzZhC81JGO5Bfu8AmnC" 

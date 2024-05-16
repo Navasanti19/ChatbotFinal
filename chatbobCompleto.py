@@ -8,13 +8,18 @@ import cv2
 import telepot
 from telepot.loop import MessageLoop
 from openai import OpenAI
-import constants
+
 
 global ASSISTANT_ID
-ASSISTANT_ID = constants.ASSISTANT_ID
+
+with open('constants.txt', 'rb') as f:
+    constants = f.read().decode('utf-8').split('\n')
+    ASSISTANT_ID = constants[0].strip()
+    API_KEY = constants[1]
 
 global client
-client = OpenAI(api_key=constants.API_KEY)
+client = OpenAI(api_key=API_KEY)
+
 
 global device
 device="cuda"
