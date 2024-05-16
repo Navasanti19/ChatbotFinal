@@ -14,7 +14,7 @@ global ASSISTANT_ID
 ASSISTANT_ID = "asst_Sa4rNiUTomxX1jUtUfk0YrGx"
 
 global client
-client = OpenAI(api_key="sk-proj-7Ow4RPjzdx9yPIVLhJDBT3BlbkFJVAzZhC81JGO5Bfu8AmnC")
+client = OpenAI(api_key="sk-proj-xqgMmLnCeFNqg9otBcmJT3BlbkFJfa3dH7sANoR4dQULko5u")
 
 
 global device
