@@ -25,7 +25,8 @@ global device
 device="cpu"
 
 global model
-model=torch.load('bobred.pth')
+model=torch.load('bobred.pth', map_location=torch.device('cpu'))
+
 model.to(device)
 model.eval()
 
